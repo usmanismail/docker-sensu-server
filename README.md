@@ -1,20 +1,20 @@
 # docker-sensu-server
 
 CentOS and sensu.
-It runs redis, rabbitmq-server, uchiwa, sensu-api, sensu-server and ssh processes.
+It runs sensu-client
 
 ## Installation
 
 Install from docker index or build from Dockerfile
 
 ```
-docker pull hiroakis/docker-sensu-server
+docker pull usman/sensu-client
 ```
 
 or
 
 ```
-git clone https://github.com/hiroakis/docker-sensu-server.git
+git clone https://github.com/usmanismail/docker-sensu-client.git
 cd docker-sensu-server
 docker build -t yourname/docker-sensu-server .
 ```
