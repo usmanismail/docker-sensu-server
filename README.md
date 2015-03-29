@@ -1,6 +1,5 @@
 # docker-sensu-client
 
-CentOS and sensu.
 ## Installation
 
 Install from docker index or build from Dockerfile
