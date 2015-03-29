@@ -1,5 +1,6 @@
 FROM hiroakis/docker-sensu-server
 
+apt-get install python
 
 ADD supervisor.conf /etc/supervisord.conf
 ADD config.json /tmp/sensu/config.json
