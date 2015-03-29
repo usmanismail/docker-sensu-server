@@ -1,0 +1,15 @@
+{
+  "client": {
+    "name": "CLIENT_NAME",
+    "address": "CLIENT_IP_ADDRESS",
+    "subscriptions": [
+      "docker"
+    ]
+  },
+  "keepalive": {
+    "thresholds": {
+      "critical": 60
+    },
+    "refresh": 300
+  }
+}
